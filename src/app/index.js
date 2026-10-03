@@ -70,6 +70,16 @@ export default function Inicio() {
         </Link>
       </View>
 
+      <View style={styles.cartao}>
+        <Text style={styles.cartaoTitulo}>Flores</Text>
+        <Text style={styles.detalhe}>
+          Abrir lista de flores
+        </Text>
+        <Link href="/flores" style={styles.link}>
+          Abrir →
+        </Link>
+      </View>
+
     </SafeAreaView>
   );
 }
